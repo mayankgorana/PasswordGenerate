@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 576px) and (max-width: 992px)" href="css/ipad.css" />
+    <link rel="stylesheet" media="screen and (max-width: 576px)" href="css/mobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Generate a <br /><span> Random Password</span></h1>
+        <input id="password" type="text" placeholder="Password" readonly />
+        <br />
+        <button onclick="generatePassword()" class="generate-button">
+            Generate Password
+        </button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
